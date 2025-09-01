@@ -8,7 +8,7 @@ const Home = () => {
   const token = localStorage.getItem("adminToken");
   const navigate = useNavigate();
 
-  const API_URL = "http://localhost:5001";
+  const API_URL = "https://edusubmit-backend-y66r.onrender.com";
 
   useEffect(() => {
     if (!token) {

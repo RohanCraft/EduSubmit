@@ -10,7 +10,7 @@ const AddContent = () => {
 
   const [studentData, setStudentData] = useState([]);
 
-  const API_URL = "http://localhost:5001/students";
+  const API_URL = "https://edusubmit-backend-y66r.onrender.com";
 
   useEffect(() => {
     const fetchData = async () => {

@@ -8,7 +8,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const API_URL = "http://localhost:5001";
+  const API_URL = "https://edusubmit-backend-y66r.onrender.com";
 
   const handleLogin = async (e) => {
     e.preventDefault();
