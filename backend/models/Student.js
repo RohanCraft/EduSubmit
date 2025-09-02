@@ -26,7 +26,7 @@ const studentSchema = new mongoose.Schema(
       type: Number,
     },
     number: {
-      type: Number,
+      type: String,
       required: [true, "Number is required"],
       unique: true,
     },

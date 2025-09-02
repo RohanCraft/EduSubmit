@@ -139,9 +139,9 @@ const AddContent = () => {
                   placeholder: "Enter your age",
                 },
                 {
-                  label: "Number",
+                  label: "Phone Number",
                   ref: numberRef,
-                  type: "text",
+                  type: "tel",
                   placeholder: "Enter your number",
                 },
               ].map((field, idx) => (

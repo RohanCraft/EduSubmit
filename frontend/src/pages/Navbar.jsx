@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo / Title */}
           <div className="text-white text-2xl font-bold tracking-wide">
-            Student Portal
+            EduSubmit
           </div>
 
           {/* Desktop Links */}
@@ -27,7 +27,7 @@ const Navbar = () => {
               to="/"
               className="text-white text-lg font-medium px-3 py-1 rounded-lg hover:bg-white/20 transition-all duration-300"
             >
-              Add Content
+              New Entry
             </Link>
           </div>
 
